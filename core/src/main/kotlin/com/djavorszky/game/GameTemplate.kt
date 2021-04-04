@@ -10,7 +10,6 @@ import com.badlogic.gdx.utils.ScreenUtils
 class GameTemplate : ApplicationAdapter() {
   private lateinit var batch: SpriteBatch
   private lateinit var img: Texture
- 
   private val backgroundColor = Color(.24f, .444f, .67f, 1f)
 
   override fun create() {

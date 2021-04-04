@@ -2,8 +2,8 @@ sourceCompatibility = 11
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
 sourceSets {
-    main.java.srcDir("src/main")
-    test.java.srcDir("src/test")
+    main.java.srcDir("src/main/kotlin")
+    test.java.srcDir("src/test/kotlin")
 }
 
 eclipse.project.name = appName + "-core"
