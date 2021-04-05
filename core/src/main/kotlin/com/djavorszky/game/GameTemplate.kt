@@ -6,7 +6,11 @@ import com.badlogic.gdx.graphics.Texture
 import com.badlogic.gdx.graphics.g2d.SpriteBatch
 import com.badlogic.gdx.utils.ScreenUtils
 
-// TODO update main entrypoint
+/**
+ * TODO update main entrypoint
+ * TODO update author - it's you :)
+ * @author Daniel Javorszky
+ */
 class GameTemplate : ApplicationAdapter() {
   private lateinit var batch: SpriteBatch
   private lateinit var img: Texture

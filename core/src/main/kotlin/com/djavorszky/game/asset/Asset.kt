@@ -7,7 +7,12 @@ package com.djavorszky.game.asset
  *
  * This provides unit-test level guarantee that all referenced assets are present and you won't run into any runtime
  * issues when trying to read a file that has since been moved / deleted.
+ *
+ * TODO update author - it's you :)
+ * @author Daniel Javorszky
  */
 enum class Asset(val path: String) {
   BADLOGIC_LOGO("badlogic.jpg"),
+
+  // TODO List your assets here.
 }
